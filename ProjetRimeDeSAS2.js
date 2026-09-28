@@ -2,35 +2,35 @@ const prompt = require (`prompt-sync`)();
 
 let candidats = [
 {
-        cin: "A123456",
+        cin: "HH11111",
         nom: "AKHANNOUCH",
         prenom: "Aziz",
         partiPolitique: "RNI",
-        age: 63,
+        age: 50,
         electeurs: []
     },
     {
-        cin: "B654321",
+        cin: "HH22222",
         nom: "WAHBI",
         prenom: "Abdellatif",
         partiPolitique: "PAM",
-        age: 62,
+        age: 54,
         electeurs: []
     },
     {
-        cin: "C789012",
+        cin: "HH33333",
         nom: "BARAKA",
         prenom: "Nizar",
         partiPolitique: "Istiqlal",
-        age: 60,
+        age: 44,
         electeurs: []
     },
     {
-        cin: "D345678",
+        cin: "HH44444",
         nom: "BENKIRANE",
         prenom: "Abdelilah",
         partiPolitique: "PJD",
-        age: 70,
+        age: 85,
         electeurs: []
     }
 ];
@@ -88,7 +88,7 @@ switch (choix) {
       break;
 
     default:
-      console.log("Choix invalide ! Tapez un chiffre entre 1 et 9.");
+      console.log("Choix invalide ! Tapez un chiffre (1-9)");
   }
 
 }while(choix !== "9")
